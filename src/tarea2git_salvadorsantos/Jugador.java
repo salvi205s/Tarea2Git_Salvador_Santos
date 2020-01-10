@@ -45,5 +45,10 @@ public class Jugador {
         this.id = id;
     }
 
+    @Override
+    public String toString() {
+        return "Jugador{" + "nombre=" + nombre + ", votos=" + votos + ", id=" + id + '}';
+    }
+
     
 }
